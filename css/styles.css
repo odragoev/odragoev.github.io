@@ -41,3 +41,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+img {
+    width: 48px;
+    height: 48px;
+    padding-left: 15px;
+}
