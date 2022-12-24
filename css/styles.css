@@ -2,48 +2,55 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+nav ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: 400;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-right: 20px;
+    color: rgb(72, 122, 216);
 }
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
+
+nav ul li:hover {
     text-decoration: underline;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(72, 122, 216);
+}
+
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
+
 footer {
     border-top: 1px solid #d5d5d5;
+    font-family: 'Montserrat', sans-serif;
     font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
 }
 
 img {
     width: 48px;
     height: 48px;
     padding-left: 15px;
+}
+
+.blurb {
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #333;
+}
+
+.blurb a:hover{
+    text-decoration: underline;
 }
